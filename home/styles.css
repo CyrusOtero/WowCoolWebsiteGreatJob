@@ -1,21 +1,46 @@
 header {
-    color: white;
-    font-size: 78pt;
+    display: flex;
+    text-align: center;
+    font-size: 72pt;
     font-weight: bolder;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgb(80, 80, 80);
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-box-shadow:  0px 2px 5px 1px rgba(155, 155, 155, .5);
+    box-shadow:  0px 4px 2px -2px rgba(155, 155, 155, .5);
 }
 
 ul{
+    display: flex;
+    flex-flow: row nowrap;
     text-decoration: none;
     list-style: none;
+    
 }
 
 li{
     font-size: 18pt;
     font-weight: bolder;
+    padding: 10px;
+    margin: 10px;
 }
 
-#dash {
+li:hover {
+    text-decoration: underline;
+}
+
+#dash:hover{
+    text-decoration: underline;
+}
+
+#dash:active{
+    color: lightblue;
+}
+
+#dash:visited{
+    color: black;
+    text-decoration: none;
+}
+
+#dash:link {
+    color: black;
     text-decoration: none;
 }
